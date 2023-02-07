@@ -105,6 +105,7 @@
   align-items: start;
   justify-content: space-between;
   box-sizing: border-box;
+  background-color: #f2f2f2;
 }
 
 .events__content {
@@ -244,7 +245,7 @@
 .staff {
   padding-top: 100px;
   padding-bottom: 140px;
-  background-image: url(/images/staff_picks_background.jpg);
+  background-image: url("../images/staff_picks_background.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
