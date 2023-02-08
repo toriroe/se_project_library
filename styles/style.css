@@ -37,6 +37,7 @@
   column-gap: 20px;
   list-style-type: none;
   margin-top: 8px;
+  margin-bottom: 0px;
   padding: 0;
 }
 
@@ -56,6 +57,8 @@
   font-weight: 500;
   max-width: 544px;
   margin: 150px 0 32px;
+  position: relative;
+  z-index: 1;
 }
 
 .header__description {
@@ -63,6 +66,8 @@
   line-height: 30px;
   max-width: 532px;
   margin: 32px 0 0;
+  position: relative;
+  z-index: 1;
 }
 
 .header__image {
@@ -71,6 +76,7 @@
   top: 135px;
   right: 20px;
   max-width: 636px;
+  z-index: 0;
 }
 
 .header__footer {
@@ -195,7 +201,6 @@
 }
 
 .person_name_feynman {
-  position: absolute;
   top: -30px;
   left: 319px;
 }
@@ -256,7 +261,6 @@
   line-height: 52px;
   margin: 0 0 24px;
   color: white;
-  font-weight: normal;
 }
 
 .staff__subtitle {
@@ -335,15 +339,14 @@
 .membership__steps {
   list-style-type: none;
   padding: 0;
-  margin: 100px auto;
+  margin: 100px auto 0;
   display: flex;
+  justify-content: space-evenly;
   width: 1080px;
   gap: 40px;
 }
 
 .step {
-  flex-direction: row;
-  justify-content: space-evenly;
   flex-basis: 220px;
   margin: 0;
   padding: 0;
@@ -375,6 +378,7 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
+  z-index: 1;
 }
 
 .about__title {
@@ -382,7 +386,6 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
-  z-index: 1;
   max-width: 154px;
 }
 
@@ -391,13 +394,16 @@
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
-  z-index: 1;
 }
 
 .about__paragraph {
   margin: 0;
   padding-bottom: 32px;
   padding-left: 120px;
+}
+
+.about__paragraph:last-of-type {
+  padding-bottom: 0;
 }
 
 .about__circle {
@@ -408,8 +414,7 @@
   position: absolute;
   top: -121px;
   left: -91px;
-
-  z-index: 0;
+  z-index: -1;
 }
 
 .footer {
