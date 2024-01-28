@@ -1,4 +1,4 @@
-# Project 1: Practicum Library
+# 'Practicum Library' Project
 
 The Practicum Library webpage is the first project in the Software Engineer program at Practicum (now called Tripleten). It was created using HTML and CSS, based on a design brief.
 
