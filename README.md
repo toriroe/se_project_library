@@ -11,5 +11,5 @@ The Practicum Library webpage is the first project in the Software Engineer prog
 
 ## Links
 
-- [Project Brief](https://practicum-content.s3.us-west-1.amazonaws.com/web-developer/project-1/new-library/project-1-stage-2-brief.pdf)]
+- [Project Brief](https://practicum-content.s3.us-west-1.amazonaws.com/web-developer/project-1/new-library/project-1-stage-2-brief.pdf)
 - [Site](https://toriroe.github.io/se_project_library/)
